@@ -70,6 +70,9 @@ DATABASES = {
         'PASSWORD': 'expozitiunea123',
         'HOST': 'localhost',
         'PORT': '3306',
+         'OPTIONS': {
+            'auth_plugin': 'mysql_native_password' 
+        }
     }
 }
 
